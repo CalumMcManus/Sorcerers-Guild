@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spellbook>
+	<STspellbook>
+		<Lv1>
+			<spell id='1'>
+				<name> Arcane Blast </name>
+				<damagetype>arcane</damagetype>
+				<damage>7</damage>
+				<dot>0</dot>
+				<heal>0</heal>
+				<casttime>1</casttime>
+				<cooldown>4</cooldown>
+				<slow>0</slow>
+				<desc> The user channels their magical power and unleashes it at once. </desc>
+				<mana> 10 </mana>
+			</spell>
+			
+			<spell id='2'>
+				
+				<name> Hex </name>
+				<damagetype>arcane</damagetype>
+				<damage>0</damage>
+				<dot>5</dot>
+				<heal>0</heal>
+				<casttime>1</casttime>
+				<cooldown>4</cooldown>
+				<slow>0</slow>
+				<desc> This move aplies a damage over time effect to the enemy </desc>
+				<mana> 5 </mana>
+			</spell>
+			
+		</Lv1>
+		
+		<Lv2>
+			
+			<spell id='1'>
+				<name> Fire Blast </name>
+				<damagetype>fire</damagetype>
+				<damage>10</damage>
+				<dot>0</dot>
+				<heal>0</heal>
+				<casttime>1</casttime>
+				<cooldown>4</cooldown>
+				<slow>0</slow>
+				<desc> The user channels their magical power and unleashes it at once. </desc>
+				<mana> 8 </mana>
+			</spell>
+				
+			<spell id='2'>
+				<name> Water Blast </name>
+				<damagetype>water</damagetype>
+				<damage>10</damage>
+				<dot>0</dot>
+				<heal>0</heal>
+				<casttime>1</casttime>
+				<cooldown>4</cooldown>
+				<slow>0</slow>
+				<desc> The user channels their magical power and unleashes it at once. </desc>
+				<mana> 8 </mana>
+			</spell>
+				
+			<spell id='3'>
+				<name> Earth Blast </name>
+				<damagetype>earth</damagetype>
+				<damage>10</damage>
+				<dot>0</dot>
+				<heal>0</heal>
+				<casttime>1</casttime>
+				<cooldown>4</cooldown>
+				<slow>0</slow>
+				<desc> The user channels their magical power and unleashes it at once. </desc>
+				<mana> 8 </mana>
+			</spell>
+		</Lv2>
+		
+		
+		<Lv3>
+			<spell id='1'>
+				<name> Rock Wall </name>
+				<damagetype>earth</damagetype>
+				<damage>0</damage>
+				<dot>0</dot>
+				<heal>0</heal>
+				<casttime>2</casttime>
+				<cooldown>10</cooldown>
+				<slow>0</slow>
+				<desc> The user summons a wall of rock to block incoming attacks. </desc>
+				<mana> 12 </mana>
+			</spell>
+
+		</Lv3>
+		
+		<Lv5>
+		
+			<spell id='1'>
+				<name>Life Drain</name>
+				<damagetype>water </damagetype>
+				<damage>5</damage>
+				<dot>0</dot>
+				<heal>10</heal>
+				<casttime>5</casttime>
+				<cooldown>12</cooldown>
+				<slow>0</slow>
+				<desc> A bubble of water is thrown at an enemy, abosrbing their life energy and returning it to the caster.</desc>
+				<mana> 15 </mana>
+			</spell>
+				
+				
+		</Lv5>
+		
+	</STspellbook>
+
+	<AOEspellbook>
+		<Lv3>
+			<spell id='1'>
+				<name> Geyser </name>
+				<damagetype>water</damagetype>
+				<damage>0</damage>
+				<dot>5</dot>
+				<heal>10</heal>
+				<casttime>4</casttime>
+				<cooldown>15</cooldown>
+				<slow>0</slow>
+				<desc> A geyser is summoned that whose water heals friendly units but damages enemies. </desc>
+				<mana> 12 </mana>
+			</spell>
+				
+			<spell id='2'>
+				<name> Flame Column </name>
+				<damagetype>fire</damagetype>
+				<damage>14</damage>
+				<dot>3</dot>
+				<heal>0</heal>
+				<casttime>5</casttime>
+				<cooldown>9</cooldown>
+				<slow>0</slow>
+				<desc> A column of flame is conjured at the target location causing damage to any caught in the column. </desc>
+				<mana> 12 </mana>
+			</spell>
+		</Lv3>
+		
+		<Lv5>
+			<spell id='1'>
+				<name> Lava Walk </name>
+				<damagetype>fire</damagetype>
+				<damage>0</damage>
+				<dot>5</dot>
+				<heal>0</heal>
+				<casttime>4</casttime>
+				<cooldown>8</cooldown>
+				<slow>0</slow>
+				<desc> Lava gathers at the user's feet causing damage to nearby enemies. </desc>
+				<mana> 8 </mana>
+			</spell>
+				
+			<spell id='2'>
+				<name> Quake </name>
+				<damagetype>earth</damagetype>
+				<damage>16</damage>
+				<dot>0</dot>
+				<heal>0</heal>
+				<casttime>8</casttime>
+				<cooldown>15</cooldown>
+				<slow>0</slow>
+				<desc> The user casts a spell that makes the earth tremble at their feet. </desc>
+				<mana> 15 </mana>
+			</spell>
+		
+		</Lv5>
+	</AOEspellbook>
+</spellbook>
