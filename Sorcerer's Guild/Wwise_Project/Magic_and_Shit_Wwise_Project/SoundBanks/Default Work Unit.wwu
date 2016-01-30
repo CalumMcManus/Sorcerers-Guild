@@ -13,8 +13,17 @@
 				<SoundBank Name="SFX" ID="{DD01C9DB-A2A2-441B-918A-007BFF5B19FC}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_PLAYER_Spells_Geyser_Into" ID="{9B3D2F07-1FA3-4280-AE90-FD1E667EA830}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CRE_Melee_VO_Damage" ID="{B8B2610D-CD54-46A6-93DD-83A7A30261AF}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_PLAYER_Spells_Geyser_Loop" ID="{241F2C23-7D18-438A-862E-817557FAD235}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CRE_Melee_VO_Effort" ID="{31A7DC25-B8F0-4878-8C55-A5565299957F}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PLAYER_VO_Death" ID="{F35F722F-25F4-42F1-86BA-1F1FE869280A}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PLAYER_VO_Damage" ID="{13BCB872-6CA2-43AE-B223-75E76DDCF16C}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CRE_Ranged_VO_Damage" ID="{16C5B977-FB27-4208-8EEE-E0352BA3739F}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CRE_Ranged_VO_Death" ID="{50989179-AE87-44A5-B8E3-FDE3DFC7488D}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CRE_Ranged_VO_Effort" ID="{A01F0D7A-3C30-47D2-93DF-EAE84AA68B00}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PLAYER_VO_Effort" ID="{A1D8E692-9952-4092-9C9A-23547048D6D9}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PLAYER_Spells_Generic_Cast" ID="{04AA389B-E7FF-4914-9712-F96E0A71CD47}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CRE_Melee_VO_Death" ID="{45A577E2-DE55-4171-B44D-5264DE486DF9}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Attack_Ranged_Cast" ID="{F288F4E5-1D58-45CC-AEA1-0BAA2B644D8A}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Attack_Melee_Impact" ID="{C14679F3-B39D-49C9-9128-9677CD6EB5CF}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

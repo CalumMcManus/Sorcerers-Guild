@@ -17,26 +17,123 @@
 			<IncludedEvents>
 				<Event Id="122885765" Name="Play_CRE_Attack_Melee_Impact"/>
 				<Event Id="1380117869" Name="Play_CRE_Attack_Ranged_Cast"/>
+				<Event Id="3588967361" Name="Play_CRE_Melee_VO_Damage"/>
+				<Event Id="1872518156" Name="Play_CRE_Melee_VO_Death"/>
+				<Event Id="4265159516" Name="Play_CRE_Melee_VO_Effort"/>
+				<Event Id="537140814" Name="Play_CRE_Ranged_VO_Damage"/>
+				<Event Id="64295941" Name="Play_CRE_Ranged_VO_Death"/>
+				<Event Id="2429775919" Name="Play_CRE_Ranged_VO_Effort"/>
 				<Event Id="4173274099" Name="Play_PLAYER_Spells_Generic_Cast"/>
 				<Event Id="109646642" Name="Play_PLAYER_Spells_Geyser_Into"/>
+				<Event Id="50153667" Name="Play_PLAYER_VO_Damage"/>
+				<Event Id="269855390" Name="Play_PLAYER_VO_Death"/>
+				<Event Id="3830336674" Name="Play_PLAYER_VO_Effort"/>
 				<Event Id="3117251788" Name="Stop_PLAYER_Spells_Geyser_Loop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="23874883" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Damage_01.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Damage_01_9E69E797.wem</Path>
+				</File>
+				<File Id="27647354" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Damage_02.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Damage_02_9E69E797.wem</Path>
+				</File>
+				<File Id="54267619" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Damage_02.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Damage_02_9E69E797.wem</Path>
+				</File>
+				<File Id="110912056" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Effort_03.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Effort_03_9E69E797.wem</Path>
+				</File>
+				<File Id="132622901" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Effort_04.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Effort_04_9E69E797.wem</Path>
+				</File>
+				<File Id="152373047" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Damage_02.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Damage_02_9E69E797.wem</Path>
+				</File>
+				<File Id="178010191" Language="SFX">
+					<ShortName>PLAYER_VO_Damage_03.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Damage_03_9E69E797.wem</Path>
+				</File>
+				<File Id="194643346" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Effort_01.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Effort_01_9E69E797.wem</Path>
+				</File>
+				<File Id="203199628" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Effort_02.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Effort_02_9E69E797.wem</Path>
+				</File>
 				<File Id="212188995" Language="SFX">
 					<ShortName>CRE_Attack_Melee_Impact_02.wav</ShortName>
 					<Path>SFX\CRE_Attack_Melee_Impact_02_9E69E797.wem</Path>
+				</File>
+				<File Id="241131201" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Damage_03.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Damage_03_9E69E797.wem</Path>
+				</File>
+				<File Id="261761233" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Effort_01.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Effort_01_9E69E797.wem</Path>
+				</File>
+				<File Id="263163161" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Effort_03.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Effort_03_9E69E797.wem</Path>
+				</File>
+				<File Id="284342369" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Damage_05.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Damage_05_9E69E797.wem</Path>
 				</File>
 				<File Id="298705614" Language="SFX">
 					<ShortName>PLAYER_SFX_Geyser_Loop_01.wav</ShortName>
 					<Path>SFX\PLAYER_SFX_Geyser_Loop_01_9E69E797.wem</Path>
 				</File>
+				<File Id="329921729" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Effort_02.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Effort_02_9E69E797.wem</Path>
+				</File>
+				<File Id="350432291" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Damage_01.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Damage_01_9E69E797.wem</Path>
+				</File>
+				<File Id="376988194" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Death_03.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Death_03_9E69E797.wem</Path>
+				</File>
 				<File Id="418418815" Language="SFX">
 					<ShortName>CRE_Attack_Melee_Impact_01.wav</ShortName>
 					<Path>SFX\CRE_Attack_Melee_Impact_01_9E69E797.wem</Path>
 				</File>
+				<File Id="425370213" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Death_01.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Death_01_9E69E797.wem</Path>
+				</File>
 				<File Id="443411805" Language="SFX">
 					<ShortName>CRE_SFX_Spell_Cast_01.wav</ShortName>
 					<Path>SFX\CRE_SFX_Spell_Cast_01_9E69E797.wem</Path>
+				</File>
+				<File Id="444224827" Language="SFX">
+					<ShortName>PLAYER_VO_Death_01.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Death_01_9E69E797.wem</Path>
+				</File>
+				<File Id="460700397" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Damage_03.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Damage_03_9E69E797.wem</Path>
+				</File>
+				<File Id="529078042" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Damage_04.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Damage_04_9E69E797.wem</Path>
+				</File>
+				<File Id="548148558" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Effort_05.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Effort_05_9E69E797.wem</Path>
+				</File>
+				<File Id="600028232" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Damage_03.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Damage_03_9E69E797.wem</Path>
 				</File>
 				<File Id="608803879" Language="SFX">
 					<ShortName>PLAYER_SFX_Geyser_Into_01.wav</ShortName>
@@ -46,13 +143,81 @@
 					<ShortName>CRE_SFX_Spell_Cast_03.wav</ShortName>
 					<Path>SFX\CRE_SFX_Spell_Cast_03_9E69E797.wem</Path>
 				</File>
+				<File Id="642504860" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Effort_02.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Effort_02_9E69E797.wem</Path>
+				</File>
+				<File Id="659145386" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Damage_04.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Damage_04_9E69E797.wem</Path>
+				</File>
+				<File Id="671791168" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Damage_01.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Damage_01_9E69E797.wem</Path>
+				</File>
+				<File Id="708736921" Language="SFX">
+					<ShortName>PLAYER_VO_Effort_02.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Effort_02_9E69E797.wem</Path>
+				</File>
+				<File Id="760889496" Language="SFX">
+					<ShortName>CRE_Melee_01_VO_Effort_03.wav</ShortName>
+					<Path>SFX\CRE_Melee_01_VO_Effort_03_9E69E797.wem</Path>
+				</File>
+				<File Id="798198027" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Death_01.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Death_01_9E69E797.wem</Path>
+				</File>
+				<File Id="815484516" Language="SFX">
+					<ShortName>PLAYER_VO_Effort_01.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Effort_01_9E69E797.wem</Path>
+				</File>
+				<File Id="837335822" Language="SFX">
+					<ShortName>PLAYER_VO_Death_03.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Death_03_9E69E797.wem</Path>
+				</File>
+				<File Id="847892321" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Death_01.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Death_01_9E69E797.wem</Path>
+				</File>
 				<File Id="878339663" Language="SFX">
 					<ShortName>CRE_SFX_Spell_Cast_02.wav</ShortName>
 					<Path>SFX\CRE_SFX_Spell_Cast_02_9E69E797.wem</Path>
 				</File>
+				<File Id="881084198" Language="SFX">
+					<ShortName>PLAYER_VO_Death_02.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Death_02_9E69E797.wem</Path>
+				</File>
+				<File Id="903000987" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Damage_04.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Damage_04_9E69E797.wem</Path>
+				</File>
 				<File Id="910106102" Language="SFX">
 					<ShortName>CRE_Attack_Melee_Impact_03.wav</ShortName>
 					<Path>SFX\CRE_Attack_Melee_Impact_03_9E69E797.wem</Path>
+				</File>
+				<File Id="940004456" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Death_02.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Death_02_9E69E797.wem</Path>
+				</File>
+				<File Id="945937362" Language="SFX">
+					<ShortName>PLAYER_VO_Effort_03.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Effort_03_9E69E797.wem</Path>
+				</File>
+				<File Id="957090130" Language="SFX">
+					<ShortName>CRE_Ranged_01_VO_Death_02.wav</ShortName>
+					<Path>SFX\CRE_Ranged_01_VO_Death_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1019759728" Language="SFX">
+					<ShortName>PLAYER_VO_Damage_02.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Damage_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1040038784" Language="SFX">
+					<ShortName>CRE_Melee_02_VO_Effort_01.wav</ShortName>
+					<Path>SFX\CRE_Melee_02_VO_Effort_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1062272559" Language="SFX">
+					<ShortName>PLAYER_VO_Damage_01.wav</ShortName>
+					<Path>SFX\PLAYER_VO_Damage_01_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

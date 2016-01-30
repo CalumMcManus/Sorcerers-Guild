@@ -63,6 +63,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_PLAYER_VO_Effort" ID="{A1D8E692-9952-4092-9C9A-23547048D6D9}">
+							<ChildrenList>
+								<Action Name="Play" ID="{DB33CCD8-1CDD-4591-9BD2-8C3CCC3F896D}" ShortID="340158027" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{E389D29B-2035-424A-A524-D6D08D4EEE94}" Global="false">
+											<ObjectRef Name="PLAYER_VO_Effort" ID="{9F2E37F0-EFCE-46EA-BF90-636E309479FC}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PLAYER_VO_Damage" ID="{13BCB872-6CA2-43AE-B223-75E76DDCF16C}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D7B18010-AD7E-4EA9-A66A-057DA97A82FF}" ShortID="621115327" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{39464F03-B9C0-46C9-BB10-630640177394}" Global="false">
+											<ObjectRef Name="PLAYER_VO_Damage" ID="{3D3E519F-ED56-4ABE-8C1B-DD0E1498300A}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PLAYER_VO_Death" ID="{F35F722F-25F4-42F1-86BA-1F1FE869280A}">
+							<ChildrenList>
+								<Action Name="Play" ID="{A1C5E568-372B-48E8-B27D-C2A42032550D}" ShortID="300288146" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{53E05EC8-1516-42AD-8727-4DBF7DDBABD9}" Global="false">
+											<ObjectRef Name="PLAYER_VO_Death" ID="{0184F29E-36ED-4B98-899C-1BC9B1BCEEB1}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="CRE" ID="{441FDF11-EA39-472D-AE04-75836AFFCE0F}" ShortID="403349334">
@@ -84,6 +117,72 @@
 									<ElementList>
 										<Element ID="{69636BD8-61AB-4B4C-B2CE-A3D057E9ABD7}" Global="false">
 											<ObjectRef Name="CRE_Attack_Melee_Impact" ID="{FF488AD0-B542-48A7-BDF0-365895D506EC}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CRE_Ranged_VO_Damage" ID="{16C5B977-FB27-4208-8EEE-E0352BA3739F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{21EA3D41-AEC5-4F0B-A25A-F00B1716F559}" ShortID="404281215" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1F071209-C315-49D7-9981-005106629E3F}" Global="false">
+											<ObjectRef Name="CRE_Ranged_VO_Damage" ID="{71467D03-38B5-4778-8641-13D46662850D}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CRE_Ranged_VO_Death" ID="{50989179-AE87-44A5-B8E3-FDE3DFC7488D}">
+							<ChildrenList>
+								<Action Name="Play" ID="{9D5CAFDF-4C30-4E67-A939-8D829F4FC3EB}" ShortID="693529776" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{AD608590-CA90-48C3-A45F-4BD64045C7A0}" Global="false">
+											<ObjectRef Name="CRE_Ranged_VO_Death" ID="{84944A47-C038-4CEF-A583-E2C49C44687D}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CRE_Ranged_VO_Effort" ID="{A01F0D7A-3C30-47D2-93DF-EAE84AA68B00}">
+							<ChildrenList>
+								<Action Name="Play" ID="{F6AA56FB-1F2A-4B56-8F07-6CEFEDFA284B}" ShortID="28926157" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{41827BA6-EE46-462B-92C9-F80A43464BA9}" Global="false">
+											<ObjectRef Name="CRE_Ranged_VO_Effort" ID="{4994741A-B7C1-42B8-B673-6490EA186171}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CRE_Melee_VO_Damage" ID="{B8B2610D-CD54-46A6-93DD-83A7A30261AF}">
+							<ChildrenList>
+								<Action Name="Play" ID="{EDB8E17F-1594-4F56-B266-D77B7ED88109}" ShortID="74952185" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{4167359C-EB84-4F0F-A19A-43F980424118}" Global="false">
+											<ObjectRef Name="CRE_Melee_VO_Damage" ID="{3412EFA6-4FDC-4DB5-8743-B8D6913F11C4}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CRE_Melee_VO_Effort" ID="{31A7DC25-B8F0-4878-8C55-A5565299957F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{8A2652DD-1AFF-4988-BCBD-C817D5B9562D}" ShortID="553203589" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{FDE99ADA-1CB9-43D5-AB25-E00AEF53D62E}" Global="false">
+											<ObjectRef Name="CRE_Melee_VO_Effort" ID="{8840C27E-40AD-4C0C-8404-B01D60596517}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CRE_Melee_VO_Death" ID="{45A577E2-DE55-4171-B44D-5264DE486DF9}">
+							<ChildrenList>
+								<Action Name="Play" ID="{4C9A4E8E-9C2D-40D5-A734-56B6F0D0CD22}" ShortID="35620335" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{39910E02-72E9-429A-916A-FEBEDBD0AF28}" Global="false">
+											<ObjectRef Name="CRE_Melee_VO_Death" ID="{6A41D7E3-5E9E-4D20-A175-B3A3A5EE4836}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
 										</Element>
 									</ElementList>
 								</Action>

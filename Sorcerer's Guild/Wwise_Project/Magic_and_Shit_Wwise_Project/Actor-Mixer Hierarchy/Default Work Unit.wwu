@@ -116,9 +116,296 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLAYER_Spells_Generic_Cast_01" ID="{A68FACCC-3785-4755-A40C-D53F1DF15DA3}" ShortID="934445948" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_SFX_Spell_Cast_01" ID="{712CA56D-123B-4D9E-8CE9-BF1F9066E3E8}" ShortID="88854843">
+															<Language>SFX</Language>
+															<AudioFile>CRE_SFX_Spell_Cast_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="443411805"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_SFX_Spell_Cast_01" ID="{712CA56D-123B-4D9E-8CE9-BF1F9066E3E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLAYER_Spells_Generic_Cast_02" ID="{5FFF52A1-B792-4600-8059-DAE42EA8B990}" ShortID="199252093" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_SFX_Spell_Cast_02" ID="{C97B0DB5-F264-425A-B7F4-FE57748B2208}" ShortID="416253261">
+															<Language>SFX</Language>
+															<AudioFile>CRE_SFX_Spell_Cast_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="878339663"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_SFX_Spell_Cast_02" ID="{C97B0DB5-F264-425A-B7F4-FE57748B2208}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLAYER_Spells_Generic_Cast_03" ID="{040006C9-DD76-484B-A9BB-318D06C180F5}" ShortID="1004978523" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_SFX_Spell_Cast_03" ID="{44EBE227-AE4C-40BC-A9CD-71A9B970A40E}" ShortID="995973120">
+															<Language>SFX</Language>
+															<AudioFile>CRE_SFX_Spell_Cast_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="631608782"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_SFX_Spell_Cast_03" ID="{44EBE227-AE4C-40BC-A9CD-71A9B970A40E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="PLAYER_VO" ID="{190544BE-4A31-45C0-AAE5-5DE3C2646D38}" ShortID="248096376">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="PLAYER_VO_Effort" ID="{9F2E37F0-EFCE-46EA-BF90-636E309479FC}" ShortID="537163813">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PLAYER_VO_Effort_01" ID="{91547585-407B-4434-907C-E2EA3063C399}" ShortID="362457253" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Effort_01" ID="{4888AF6D-342A-4C3A-87A8-94D3B5854396}" ShortID="815484516">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Effort_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Effort_01" ID="{4888AF6D-342A-4C3A-87A8-94D3B5854396}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLAYER_VO_Effort_02" ID="{3097677C-3568-4A91-858A-62F2A6CA79A9}" ShortID="365785377" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Effort_02" ID="{006856C8-6B2A-4F2A-A493-80ABDD043E05}" ShortID="708736921">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Effort_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Effort_02" ID="{006856C8-6B2A-4F2A-A493-80ABDD043E05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLAYER_VO_Effort_03" ID="{23A59CE6-14B9-4AB1-8CA8-ACE410002927}" ShortID="240386752" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Effort_03" ID="{1320913A-C08B-4F5A-9C01-4ED59B8B1DD0}" ShortID="945937362">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Effort_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Effort_03" ID="{1320913A-C08B-4F5A-9C01-4ED59B8B1DD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="PLAYER_VO_Damage" ID="{3D3E519F-ED56-4ABE-8C1B-DD0E1498300A}" ShortID="86128982">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PLAYER_VO_Damage_01" ID="{4B094845-328B-4482-81D2-A45EE9B65E98}" ShortID="890616411" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Damage_01" ID="{821A0AB0-1877-42EF-8D66-D051AA0C952F}" ShortID="1062272559">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Damage_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Damage_01" ID="{821A0AB0-1877-42EF-8D66-D051AA0C952F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLAYER_VO_Damage_02" ID="{354AF9E4-F264-4828-98FE-3A9D40BFC6E0}" ShortID="303664437" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Damage_02" ID="{DEA85150-3A9C-42C1-9188-4898BCEA518C}" ShortID="1019759728">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Damage_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Damage_02" ID="{DEA85150-3A9C-42C1-9188-4898BCEA518C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLAYER_VO_Damage_03" ID="{FA15F39B-6E62-40AA-A35E-87C1F38782BF}" ShortID="460846620" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Damage_03" ID="{46D93EA1-FE6E-4DE2-9CDA-AD284EA71892}" ShortID="178010191">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Damage_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Damage_03" ID="{46D93EA1-FE6E-4DE2-9CDA-AD284EA71892}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="PLAYER_VO_Death" ID="{0184F29E-36ED-4B98-899C-1BC9B1BCEEB1}" ShortID="93214823">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PLAYER_VO_Death_01" ID="{F99AE295-671D-410C-80D6-08BA163F02B7}" ShortID="993019752" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Death_01" ID="{F08A5C24-2B6C-4E48-AFBB-ECB109E4CF50}" ShortID="444224827">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Death_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Death_01" ID="{F08A5C24-2B6C-4E48-AFBB-ECB109E4CF50}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLAYER_VO_Death_02" ID="{B8C24033-02B7-485B-8229-CF1B0A3D9D97}" ShortID="627654012" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Death_02" ID="{DAF6B79B-B0B7-4E84-940F-CE0667EE1491}" ShortID="881084198">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Death_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Death_02" ID="{DAF6B79B-B0B7-4E84-940F-CE0667EE1491}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLAYER_VO_Death_03" ID="{CDBA1779-D15C-48FA-B49F-0A20DA801356}" ShortID="185244293" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLAYER_VO_Death_03" ID="{494364E2-3710-4798-AA78-E63111A693C8}" ShortID="837335822">
+													<Language>SFX</Language>
+													<AudioFile>PLAYER_VO_Death_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PLAYER_VO_Death_03" ID="{494364E2-3710-4798-AA78-E63111A693C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -301,6 +588,744 @@
 												<ActiveSource Name="CRE_SFX_Spell_Cast_03" ID="{9A8326A2-3B2A-43BC-B850-2228B088D8D0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="CRE_Ranged_VO" ID="{A547E6C9-7030-41EE-9E72-9D57BBB99FE0}" ShortID="244004188">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="CRE_Ranged_VO_Damage" ID="{71467D03-38B5-4778-8641-13D46662850D}" ShortID="1009085079">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="CRE_Ranged_01_VO_Damage_01" ID="{89A267AB-E9BE-4586-840A-02EB27500E22}" ShortID="476218610" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Damage_01" ID="{CEC8AAC6-04C6-4320-BC3A-4767F98CB776}" ShortID="671791168">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Damage_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Damage_01" ID="{CEC8AAC6-04C6-4320-BC3A-4767F98CB776}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CRE_Ranged_01_VO_Damage_02" ID="{EE32A383-C16E-42C9-81C3-08600185C454}" ShortID="864705465" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Damage_02" ID="{AB32C9CA-F3E0-44D5-8559-E3CDA887F145}" ShortID="152373047">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Damage_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Damage_02" ID="{AB32C9CA-F3E0-44D5-8559-E3CDA887F145}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CRE_Ranged_01_VO_Damage_03" ID="{CAC9A4B8-B578-4836-A453-DDEEBF9193E3}" ShortID="644458759" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Damage_03" ID="{8D7695DF-D6A2-4210-9EDA-6D5E1CB046F7}" ShortID="241131201">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Damage_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Damage_03" ID="{8D7695DF-D6A2-4210-9EDA-6D5E1CB046F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CRE_Ranged_01_VO_Damage_04" ID="{31FEBD92-E6A6-49A3-A8DA-AAD31EB829CC}" ShortID="1049050837" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Damage_04" ID="{69ABDBD8-25C5-40B3-A919-BB2894AF2E0A}" ShortID="529078042">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Damage_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Damage_04" ID="{69ABDBD8-25C5-40B3-A919-BB2894AF2E0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="CRE_Ranged_VO_Effort" ID="{4994741A-B7C1-42B8-B673-6490EA186171}" ShortID="289777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="CRE_Ranged_01_VO_Effort_01" ID="{A586D943-201C-4EE2-8758-E92370B75DAB}" ShortID="821637793" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Effort_01" ID="{D8A5B54A-8B9D-42C0-9A44-048C614A4130}" ShortID="261761233">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Effort_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Effort_01" ID="{D8A5B54A-8B9D-42C0-9A44-048C614A4130}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CRE_Ranged_01_VO_Effort_02" ID="{82EAC7F7-CA91-4B08-9E7F-B25CEFCEA1B6}" ShortID="626531152" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Effort_02" ID="{30DDF841-912B-4FC7-9F5F-D5E1D8C77E6D}" ShortID="203199628">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Effort_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Effort_02" ID="{30DDF841-912B-4FC7-9F5F-D5E1D8C77E6D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CRE_Ranged_01_VO_Effort_03" ID="{9302F35E-028D-416D-8D2B-5C481CC87485}" ShortID="313060859" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Effort_03" ID="{2D7AE73B-3824-4B32-BB47-774E1229610A}" ShortID="263163161">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Effort_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Effort_03" ID="{2D7AE73B-3824-4B32-BB47-774E1229610A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="CRE_Ranged_VO_Death" ID="{84944A47-C038-4CEF-A583-E2C49C44687D}" ShortID="643850778">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="CRE_Ranged_01_VO_Death_01" ID="{06C9512F-997F-4649-A015-F5704FCD1DA7}" ShortID="422172551" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Death_01" ID="{A9DBE4D1-6D7F-4B9A-A4CC-5AFF6EBA682D}" ShortID="798198027">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Death_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Death_01" ID="{A9DBE4D1-6D7F-4B9A-A4CC-5AFF6EBA682D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CRE_Ranged_01_VO_Death_02" ID="{700667F2-02AE-4975-B90E-B443C94C5904}" ShortID="832542385" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Death_02" ID="{83C155C9-0FD5-4DB7-8ABD-C4CB89E1DBE3}" ShortID="957090130">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Death_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Death_02" ID="{83C155C9-0FD5-4DB7-8ABD-C4CB89E1DBE3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CRE_Ranged_01_VO_Death_03" ID="{D6632FC2-F1C6-4366-AFDD-3292D1183DC5}" ShortID="92188498" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CRE_Ranged_01_VO_Death_03" ID="{C48BDCD3-3A99-4E1E-8117-A8708573C711}" ShortID="376988194">
+													<Language>SFX</Language>
+													<AudioFile>CRE_Ranged_01_VO_Death_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CRE_Ranged_01_VO_Death_03" ID="{C48BDCD3-3A99-4E1E-8117-A8708573C711}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="CRE_Melee_VO" ID="{458D0394-D56D-4DE3-816D-6941822EF426}" ShortID="800612172">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="CRE_Melee_VO_Effort" ID="{8840C27E-40AD-4C0C-8404-B01D60596517}" ShortID="976049504">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="CRE_Melee_VO_Effort_01" ID="{C015FCFA-7898-42D0-B485-1E572B39C9F3}" ShortID="742219103">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CRE_Melee_01_VO_Effort_01" ID="{1BCEA23A-EA7E-4F10-B0F4-A5A427A40672}" ShortID="460093662" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Effort_01" ID="{B1346780-14E5-4CD9-A5B1-B6014A1C5972}" ShortID="194643346">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Effort_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Effort_01" ID="{B1346780-14E5-4CD9-A5B1-B6014A1C5972}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_01_VO_Effort_02" ID="{93EF322D-27A5-47BF-89EF-AA799E306BEB}" ShortID="441158959" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Effort_02" ID="{C8B34211-B1ED-4882-99DA-8EEF5AD240BE}" ShortID="642504860">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Effort_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Effort_02" ID="{C8B34211-B1ED-4882-99DA-8EEF5AD240BE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_01_VO_Effort_03" ID="{B07066B9-00F4-46D8-A3AB-487E80DBB788}" ShortID="28979170" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Effort_03" ID="{4608ADA7-99E6-45CC-9CC6-AA8CC5603033}" ShortID="760889496">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Effort_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Effort_03" ID="{4608ADA7-99E6-45CC-9CC6-AA8CC5603033}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_01_VO_Effort_04" ID="{727CB16F-A7E7-4655-A168-EECC608EB985}" ShortID="405408092" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Effort_04" ID="{FF09D781-E640-4A40-98A1-68094F76B0FD}" ShortID="132622901">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Effort_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Effort_04" ID="{FF09D781-E640-4A40-98A1-68094F76B0FD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="CRE_Melee_VO_Effort_02" ID="{ACBD0321-A08F-43D7-BB85-68377001F421}" ShortID="969141280">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CRE_Melee_02_VO_Effort_01" ID="{2193C794-E599-45C8-9F9B-1723699C11ED}" ShortID="1017351547" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Effort_01" ID="{19FE3A0A-5F63-459C-B65E-EB7EC8E525F6}" ShortID="1040038784">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Effort_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Effort_01" ID="{19FE3A0A-5F63-459C-B65E-EB7EC8E525F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_02_VO_Effort_02" ID="{E65BF7F0-B0A7-48DE-9893-A0521C2D36F3}" ShortID="659650389" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Effort_02" ID="{C90EFCE8-AC26-42A6-98C0-2F506F38A058}" ShortID="329921729">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Effort_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Effort_02" ID="{C90EFCE8-AC26-42A6-98C0-2F506F38A058}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_02_VO_Effort_03" ID="{C54B1E2A-53C7-4AB2-813B-358B247D6EA9}" ShortID="591754855" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Effort_03" ID="{4D9AFAEA-9E03-494A-BEF3-BD47630AC3A6}" ShortID="110912056">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Effort_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Effort_03" ID="{4D9AFAEA-9E03-494A-BEF3-BD47630AC3A6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_02_VO_Effort_05" ID="{643B754D-97C9-49C6-9816-24D85C66A167}" ShortID="555038113" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Effort_05" ID="{4A251B19-C84C-4465-A095-55555B1F47C7}" ShortID="548148558">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Effort_05.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Effort_05" ID="{4A251B19-C84C-4465-A095-55555B1F47C7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="CRE_Melee_VO_Damage" ID="{3412EFA6-4FDC-4DB5-8743-B8D6913F11C4}" ShortID="738919407">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="CRE_Melee_VO_Damage_02" ID="{C3BEA074-2513-4E5D-AE27-DB52D612F4CB}" ShortID="963687299">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CRE_Melee_02_VO_Damage_01" ID="{C79B4AC0-7FAF-4CAC-9A40-441E8D351E52}" ShortID="781234281" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Damage_01" ID="{CC97C775-5D93-44BD-B819-78AD41836AE0}" ShortID="350432291">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Damage_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Damage_01" ID="{CC97C775-5D93-44BD-B819-78AD41836AE0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_02_VO_Damage_02" ID="{476BC55A-50C2-4D98-97CC-80261E6136B2}" ShortID="727967916" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Damage_02" ID="{918201F7-DA34-474E-9761-DB25CBB80AEE}" ShortID="54267619">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Damage_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Damage_02" ID="{918201F7-DA34-474E-9761-DB25CBB80AEE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_02_VO_Damage_03" ID="{C7706BC0-9F75-449A-AB47-42A56102127E}" ShortID="898494820" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Damage_03" ID="{9D466834-BB01-4739-B537-3C4C24BC95CF}" ShortID="460700397">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Damage_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Damage_03" ID="{9D466834-BB01-4739-B537-3C4C24BC95CF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_02_VO_Damage_04" ID="{927B631E-5490-40A9-97E6-A0A950B36514}" ShortID="460811442" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Damage_04" ID="{E53F367F-8F1A-4245-B3BC-542A43D8AFC6}" ShortID="903000987">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Damage_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Damage_04" ID="{E53F367F-8F1A-4245-B3BC-542A43D8AFC6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_02_VO_Damage_05" ID="{435C4C50-20F1-4B3B-AD80-2FC59FA4EF18}" ShortID="247363649" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Damage_05" ID="{E6589B7F-1584-413C-9228-B55C6E69A1D0}" ShortID="284342369">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Damage_05.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Damage_05" ID="{E6589B7F-1584-413C-9228-B55C6E69A1D0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="CRE_Melee_VO_Damage_01" ID="{9D0C3272-52E5-4F4C-9F51-9062D1FBD4CF}" ShortID="459213211">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CRE_Melee_01_VO_Damage_01" ID="{0BFD6E2F-A1D7-4DEA-9F4D-7B7964A7F528}" ShortID="468274005" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Damage_01" ID="{C35D7782-B89E-4954-A5F3-D2EB3D5D1A35}" ShortID="23874883">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Damage_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Damage_01" ID="{C35D7782-B89E-4954-A5F3-D2EB3D5D1A35}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_01_VO_Damage_02" ID="{1E8F9E09-D5F9-4F3B-BEC1-5EC3D17F2B52}" ShortID="1027105235" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Damage_02" ID="{0A3C9739-7F0D-4555-B0B8-886F456253D3}" ShortID="27647354">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Damage_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Damage_02" ID="{0A3C9739-7F0D-4555-B0B8-886F456253D3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_01_VO_Damage_03" ID="{C549B993-4115-4DC7-A1DD-32578285B056}" ShortID="1065628584" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Damage_03" ID="{10C5506C-9BD4-4B4B-A945-A4CF93D62A92}" ShortID="600028232">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Damage_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Damage_03" ID="{10C5506C-9BD4-4B4B-A945-A4CF93D62A92}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_01_VO_Damage_04" ID="{683AFE3E-23E3-4E8B-92F4-0CC9C7CB672F}" ShortID="261587738" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Damage_04" ID="{80C49DDE-8870-43C0-AFA0-10063BB99D1C}" ShortID="659145386">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Damage_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Damage_04" ID="{80C49DDE-8870-43C0-AFA0-10063BB99D1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="CRE_Melee_VO_Death" ID="{6A41D7E3-5E9E-4D20-A175-B3A3A5EE4836}" ShortID="700383152">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="CRE_Melee_VO_Death_01" ID="{7C2D10F1-0FD6-42D8-B52E-C7A99BE9C310}" ShortID="663187208">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CRE_Melee_01_VO_Death_01" ID="{90BDCB57-C0CE-4017-9E29-B81C08001054}" ShortID="154021794" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_01_VO_Death_01" ID="{67DD3875-6DFE-4E4F-8269-6422B5439F2E}" ShortID="425370213">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_01_VO_Death_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_01_VO_Death_01" ID="{67DD3875-6DFE-4E4F-8269-6422B5439F2E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="CRE_Melee_VO_Death_02" ID="{78A1EA8A-20FF-449B-BB24-2590389AB522}" ShortID="307073534">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CRE_Melee_02_VO_Death_01" ID="{8C0136FE-0547-46B4-AAE4-26EB2AA215C6}" ShortID="208077426" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Death_01" ID="{081B05A7-1E78-40EF-81AD-3528F7D76C4E}" ShortID="847892321">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Death_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Death_01" ID="{081B05A7-1E78-40EF-81AD-3528F7D76C4E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CRE_Melee_02_VO_Death_02" ID="{FB533A9A-DBA5-4434-A6DE-0CA5C84DE6C5}" ShortID="210349382" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CRE_Melee_02_VO_Death_02" ID="{A2194866-DA78-4F35-83C9-A333177B7921}" ShortID="940004456">
+															<Language>SFX</Language>
+															<AudioFile>CRE_Melee_02_VO_Death_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CRE_Melee_02_VO_Death_02" ID="{A2194866-DA78-4F35-83C9-A333177B7921}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
