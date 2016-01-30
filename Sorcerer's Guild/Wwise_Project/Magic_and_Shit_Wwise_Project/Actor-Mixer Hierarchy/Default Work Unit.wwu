@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="PLAYER" ID="{56CD4E7F-C115-45FC-B3FA-C1A71267C28D}" ShortID="375271421">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
@@ -14,12 +17,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="PLAYER_Spells" ID="{F82D5922-5961-4AEE-873D-1D0C2127E89A}" ShortID="329614606">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+									<ObjectRef Name="SFX" ID="{BEE8E646-1D13-4C0A-9ACB-896987F47C82}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -187,15 +193,323 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
+								<ActorMixer Name="PLAYER_Spells_Fireball" ID="{146D37B5-B134-4716-9CBC-D0C816E2AF2C}" ShortID="159789623">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="PLAYER_Spells_Fireball_Cast" ID="{930E605D-9957-42AA-BCAC-A37E6D47C17B}" ShortID="646959910">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLAYER_SFX_Spells_Fireball_Cast_01" ID="{4E47190F-FE9F-4296-AAC3-52DC6AD72178}" ShortID="585060705" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_SFX_Spells_Fireball_Cast_01" ID="{60AECF6C-4412-406D-AE93-87DFB3086B6F}" ShortID="724904604">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_SFX_Spells_Fireball_Cast_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_SFX_Spells_Fireball_Cast_01" ID="{60AECF6C-4412-406D-AE93-87DFB3086B6F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLAYER_SFX_Spells_Fireball_Cast_02" ID="{83A9D7F8-FA69-49E1-A46B-2CB92C0C6206}" ShortID="62749213" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_SFX_Spells_Fireball_Cast_02" ID="{F6AA5CED-57C9-42FF-ACE8-C146BA24E02D}" ShortID="86603977">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_SFX_Spells_Fireball_Cast_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_SFX_Spells_Fireball_Cast_02" ID="{F6AA5CED-57C9-42FF-ACE8-C146BA24E02D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLAYER_SFX_Spells_Fireball_Cast_03" ID="{A30C411A-B105-4E30-86F9-51B812912195}" ShortID="1029829751" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_SFX_Spells_Fireball_Cast_03" ID="{EA9C0C94-BA23-466A-AD76-32B620158B53}" ShortID="117357767">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_SFX_Spells_Fireball_Cast_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_SFX_Spells_Fireball_Cast_03" ID="{EA9C0C94-BA23-466A-AD76-32B620158B53}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="PLAYER_Spells_Rockblast" ID="{20B23BE2-61A1-40F0-A67E-FF3BE8CFFED5}" ShortID="196607313">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="PLAYER_Spells_Rockblast_Cast" ID="{9CCB9847-E7C6-4A46-B04E-FF384AD3649A}" ShortID="24892318">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLAYER_Spells_Rockblast_Cast_01" ID="{D8589D4A-FCD1-4BFB-88E1-57BEBAB5149F}" ShortID="559615776" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_Spells_Rockblast_Cast_01" ID="{F2DABDDE-F313-412B-A0A1-F5F544C70644}" ShortID="755692199">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_Spells_Rockblast_Cast_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_Spells_Rockblast_Cast_01" ID="{F2DABDDE-F313-412B-A0A1-F5F544C70644}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLAYER_Spells_Rockblast_Cast_02" ID="{668A86D1-568A-42BE-B281-033FA204DA3E}" ShortID="641286032" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_Spells_Rockblast_Cast_02" ID="{380F3287-4788-4CBD-BE26-0A1FBE4A6AFA}" ShortID="111718590">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_Spells_Rockblast_Cast_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_Spells_Rockblast_Cast_02" ID="{380F3287-4788-4CBD-BE26-0A1FBE4A6AFA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="PLAYER_Spells_Rockblast_Impact" ID="{F6F0BD33-523F-445D-B228-D9C2EF17C933}" ShortID="113283108">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLAYER_SFX_Spells_RockBlast_Impact_01" ID="{289EB6B2-3B19-4D48-9A39-0E4CAD5785C8}" ShortID="476560425" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_SFX_Spells_RockBlast_Impact_01" ID="{FF080B06-31AF-40C4-833B-7F0AB38E81A4}" ShortID="192690016">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_SFX_Spells_RockBlast_Impact_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_SFX_Spells_RockBlast_Impact_01" ID="{FF080B06-31AF-40C4-833B-7F0AB38E81A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLAYER_SFX_Spells_RockBlast_Impact_02" ID="{75C0F1B2-C274-4CFF-BF84-F0B721B6E56B}" ShortID="5707574" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_SFX_Spells_RockBlast_Impact_02" ID="{94018662-F397-437E-9F84-7DF96F17316B}" ShortID="141939560">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_SFX_Spells_RockBlast_Impact_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_SFX_Spells_RockBlast_Impact_02" ID="{94018662-F397-437E-9F84-7DF96F17316B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="PLAYER_Spells_Waterblast" ID="{CE68B4C0-3626-4F37-A847-E102DE1F976B}" ShortID="779919290">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="PLAYER_Spells_Waterblast_Cast" ID="{2567CD44-62C9-4599-901C-13912B476F3A}" ShortID="615832937">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLAYER_Spells_Waterblast_Cast_01" ID="{9EE50497-ABB4-4D05-B890-EF083326F415}" ShortID="659029487" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_Spells_Waterblast_Cast_01" ID="{4668DDF9-4E49-4781-A897-5959CFAE8AFE}" ShortID="296254346">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_Spells_Waterblast_Cast_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_Spells_Waterblast_Cast_01" ID="{4668DDF9-4E49-4781-A897-5959CFAE8AFE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLAYER_Spells_Waterblast_Cast_02" ID="{4909FAAC-83AB-4F9F-844D-99669F643D36}" ShortID="928115242" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_Spells_Waterblast_Cast_02" ID="{D41FBD1D-FB80-4298-ADC4-A4F472F07B40}" ShortID="982058335">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_Spells_Waterblast_Cast_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_Spells_Waterblast_Cast_02" ID="{D41FBD1D-FB80-4298-ADC4-A4F472F07B40}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="PLAYER_Spells_Waterblast_Impact" ID="{A1E9E2EA-4167-484C-BF32-C267F2D0C6CB}" ShortID="170569216">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLAYER_Spells_Waterblast_Impact_01" ID="{ED5CE138-C349-41AA-8833-95733CCD7D3F}" ShortID="78188275" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_Spells_Waterblast_Impact_01" ID="{B32D9DAD-379F-43E7-BF1E-3B1EE234273F}" ShortID="217157593">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_Spells_Waterblast_Impact_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_Spells_Waterblast_Impact_01" ID="{B32D9DAD-379F-43E7-BF1E-3B1EE234273F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLAYER_Spells_Waterblast_Impact_02" ID="{212A092A-9DA3-41CB-ACAB-4E44B55599B8}" ShortID="638215632" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLAYER_Spells_Waterblast_Impact_02" ID="{69F6E857-03AB-4D4B-8051-EDFBB9D31236}" ShortID="397385503">
+															<Language>SFX</Language>
+															<AudioFile>PLAYER_Spells_Waterblast_Impact_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PLAYER_Spells_Waterblast_Impact_02" ID="{69F6E857-03AB-4D4B-8051-EDFBB9D31236}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="PLAYER_VO" ID="{190544BE-4A31-45C0-AAE5-5DE3C2646D38}" ShortID="248096376">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+									<ObjectRef Name="VO" ID="{EE0CED22-A8E1-4145-A4C2-2197426A4980}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -411,6 +725,9 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="CRE" ID="{9A9B8952-A417-4846-9569-0AA23B0C187E}" ShortID="812215815">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
@@ -421,12 +738,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="CRE_Attack_Melee" ID="{0B52B360-FEBF-4526-8D70-1744B70643E6}" ShortID="613670294">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+									<ObjectRef Name="SFX" ID="{BEE8E646-1D13-4C0A-9ACB-896987F47C82}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -512,12 +832,15 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="CRE_Attack_Ranged" ID="{2B5AF39C-859E-47A4-ABBB-A7CEB43600B2}" ShortID="273198808">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+									<ObjectRef Name="SFX" ID="{BEE8E646-1D13-4C0A-9ACB-896987F47C82}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -593,12 +916,15 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="CRE_Ranged_VO" ID="{A547E6C9-7030-41EE-9E72-9D57BBB99FE0}" ShortID="244004188">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+									<ObjectRef Name="VO" ID="{EE0CED22-A8E1-4145-A4C2-2197426A4980}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -831,12 +1157,15 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="CRE_Melee_VO" ID="{458D0394-D56D-4DE3-816D-6941822EF426}" ShortID="800612172">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+									<ObjectRef Name="VO" ID="{EE0CED22-A8E1-4145-A4C2-2197426A4980}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1338,9 +1667,46 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+							<ObjectRef Name="ATMOS" ID="{CF86EEAA-1C04-4BC5-9C14-1F6CF1D75B18}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Atmos_HubArea" ID="{72DC9FF6-5937-40FE-B118-16C67741A305}" ShortID="938896578">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ATMOS_HubArea_01" ID="{72CF1D67-49D4-474F-A8FD-CF0754F94BA5}" ShortID="422068667" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CE65775-4CDF-4551-ADF4-32656D33486A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{74D5D225-BAB9-4D09-A759-860D1DF61F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ATMOS_HubArea_01" ID="{8B9B6856-BA2E-497E-BB91-5A573D053386}" ShortID="669742798">
+											<Language>SFX</Language>
+											<AudioFile>ATMOS_HubArea_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ATMOS_HubArea_01" ID="{8B9B6856-BA2E-497E-BB91-5A573D053386}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

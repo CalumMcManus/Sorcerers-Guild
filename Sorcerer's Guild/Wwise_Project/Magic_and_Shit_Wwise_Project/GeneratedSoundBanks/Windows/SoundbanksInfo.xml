@@ -15,6 +15,7 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3982659403" Name="Play_Atmos_HubArea"/>
 				<Event Id="122885765" Name="Play_CRE_Attack_Melee_Impact"/>
 				<Event Id="1380117869" Name="Play_CRE_Attack_Ranged_Cast"/>
 				<Event Id="3588967361" Name="Play_CRE_Melee_VO_Damage"/>
@@ -23,11 +24,16 @@
 				<Event Id="537140814" Name="Play_CRE_Ranged_VO_Damage"/>
 				<Event Id="64295941" Name="Play_CRE_Ranged_VO_Death"/>
 				<Event Id="2429775919" Name="Play_CRE_Ranged_VO_Effort"/>
+				<Event Id="4067737111" Name="Play_PLAYER_Spells_Fireball_Cast"/>
 				<Event Id="4173274099" Name="Play_PLAYER_Spells_Generic_Cast"/>
 				<Event Id="109646642" Name="Play_PLAYER_Spells_Geyser_Into"/>
+				<Event Id="3438232227" Name="Play_PLAYER_Spells_Rockblast_Cast"/>
+				<Event Id="3858206673" Name="Play_PLAYER_Spells_Waterblast_Cast"/>
+				<Event Id="2265527082" Name="Play_PLAYER_Spells_Waterblast_Impact"/>
 				<Event Id="50153667" Name="Play_PLAYER_VO_Damage"/>
 				<Event Id="269855390" Name="Play_PLAYER_VO_Death"/>
 				<Event Id="3830336674" Name="Play_PLAYER_VO_Effort"/>
+				<Event Id="3970481665" Name="Stop_Atmos_HubArea"/>
 				<Event Id="3117251788" Name="Stop_PLAYER_Spells_Geyser_Loop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -43,9 +49,21 @@
 					<ShortName>CRE_Melee_02_VO_Damage_02.wav</ShortName>
 					<Path>SFX\CRE_Melee_02_VO_Damage_02_9E69E797.wem</Path>
 				</File>
+				<File Id="86603977" Language="SFX">
+					<ShortName>PLAYER_SFX_Spells_Fireball_Cast_02.wav</ShortName>
+					<Path>SFX\PLAYER_SFX_Spells_Fireball_Cast_02_9E69E797.wem</Path>
+				</File>
 				<File Id="110912056" Language="SFX">
 					<ShortName>CRE_Melee_02_VO_Effort_03.wav</ShortName>
 					<Path>SFX\CRE_Melee_02_VO_Effort_03_9E69E797.wem</Path>
+				</File>
+				<File Id="111718590" Language="SFX">
+					<ShortName>PLAYER_Spells_Rockblast_Cast_02.wav</ShortName>
+					<Path>SFX\PLAYER_Spells_Rockblast_Cast_02_9E69E797.wem</Path>
+				</File>
+				<File Id="117357767" Language="SFX">
+					<ShortName>PLAYER_SFX_Spells_Fireball_Cast_03.wav</ShortName>
+					<Path>SFX\PLAYER_SFX_Spells_Fireball_Cast_03_9E69E797.wem</Path>
 				</File>
 				<File Id="132622901" Language="SFX">
 					<ShortName>CRE_Melee_01_VO_Effort_04.wav</ShortName>
@@ -71,6 +89,10 @@
 					<ShortName>CRE_Attack_Melee_Impact_02.wav</ShortName>
 					<Path>SFX\CRE_Attack_Melee_Impact_02_9E69E797.wem</Path>
 				</File>
+				<File Id="217157593" Language="SFX">
+					<ShortName>PLAYER_Spells_Waterblast_Impact_01.wav</ShortName>
+					<Path>SFX\PLAYER_Spells_Waterblast_Impact_01_9E69E797.wem</Path>
+				</File>
 				<File Id="241131201" Language="SFX">
 					<ShortName>CRE_Ranged_01_VO_Damage_03.wav</ShortName>
 					<Path>SFX\CRE_Ranged_01_VO_Damage_03_9E69E797.wem</Path>
@@ -87,6 +109,10 @@
 					<ShortName>CRE_Melee_02_VO_Damage_05.wav</ShortName>
 					<Path>SFX\CRE_Melee_02_VO_Damage_05_9E69E797.wem</Path>
 				</File>
+				<File Id="296254346" Language="SFX">
+					<ShortName>PLAYER_Spells_Waterblast_Cast_01.wav</ShortName>
+					<Path>SFX\PLAYER_Spells_Waterblast_Cast_01_9E69E797.wem</Path>
+				</File>
 				<File Id="298705614" Language="SFX">
 					<ShortName>PLAYER_SFX_Geyser_Loop_01.wav</ShortName>
 					<Path>SFX\PLAYER_SFX_Geyser_Loop_01_9E69E797.wem</Path>
@@ -102,6 +128,10 @@
 				<File Id="376988194" Language="SFX">
 					<ShortName>CRE_Ranged_01_VO_Death_03.wav</ShortName>
 					<Path>SFX\CRE_Ranged_01_VO_Death_03_9E69E797.wem</Path>
+				</File>
+				<File Id="397385503" Language="SFX">
+					<ShortName>PLAYER_Spells_Waterblast_Impact_02.wav</ShortName>
+					<Path>SFX\PLAYER_Spells_Waterblast_Impact_02_9E69E797.wem</Path>
 				</File>
 				<File Id="418418815" Language="SFX">
 					<ShortName>CRE_Attack_Melee_Impact_01.wav</ShortName>
@@ -151,6 +181,10 @@
 					<ShortName>CRE_Melee_01_VO_Damage_04.wav</ShortName>
 					<Path>SFX\CRE_Melee_01_VO_Damage_04_9E69E797.wem</Path>
 				</File>
+				<File Id="669742798" Language="SFX">
+					<ShortName>ATMOS_HubArea_01.wav</ShortName>
+					<Path>SFX\ATMOS_HubArea_01_9E69E797.wem</Path>
+				</File>
 				<File Id="671791168" Language="SFX">
 					<ShortName>CRE_Ranged_01_VO_Damage_01.wav</ShortName>
 					<Path>SFX\CRE_Ranged_01_VO_Damage_01_9E69E797.wem</Path>
@@ -158,6 +192,14 @@
 				<File Id="708736921" Language="SFX">
 					<ShortName>PLAYER_VO_Effort_02.wav</ShortName>
 					<Path>SFX\PLAYER_VO_Effort_02_9E69E797.wem</Path>
+				</File>
+				<File Id="724904604" Language="SFX">
+					<ShortName>PLAYER_SFX_Spells_Fireball_Cast_01.wav</ShortName>
+					<Path>SFX\PLAYER_SFX_Spells_Fireball_Cast_01_9E69E797.wem</Path>
+				</File>
+				<File Id="755692199" Language="SFX">
+					<ShortName>PLAYER_Spells_Rockblast_Cast_01.wav</ShortName>
+					<Path>SFX\PLAYER_Spells_Rockblast_Cast_01_9E69E797.wem</Path>
 				</File>
 				<File Id="760889496" Language="SFX">
 					<ShortName>CRE_Melee_01_VO_Effort_03.wav</ShortName>
@@ -206,6 +248,10 @@
 				<File Id="957090130" Language="SFX">
 					<ShortName>CRE_Ranged_01_VO_Death_02.wav</ShortName>
 					<Path>SFX\CRE_Ranged_01_VO_Death_02_9E69E797.wem</Path>
+				</File>
+				<File Id="982058335" Language="SFX">
+					<ShortName>PLAYER_Spells_Waterblast_Cast_02.wav</ShortName>
+					<Path>SFX\PLAYER_Spells_Waterblast_Cast_02_9E69E797.wem</Path>
 				</File>
 				<File Id="1019759728" Language="SFX">
 					<ShortName>PLAYER_VO_Damage_02.wav</ShortName>

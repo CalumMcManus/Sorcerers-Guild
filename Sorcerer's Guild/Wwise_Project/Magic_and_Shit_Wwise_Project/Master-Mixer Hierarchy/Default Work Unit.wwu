@@ -6,9 +6,22 @@
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ChildrenList>
 						<Bus Name="MUSIC" ID="{1BAB776E-378F-4658-974B-8B4E49D30D28}"/>
+						<Bus Name="ATMOS" ID="{CF86EEAA-1C04-4BC5-9C14-1F6CF1D75B18}"/>
+						<Bus Name="SFX" ID="{BEE8E646-1D13-4C0A-9ACB-896987F47C82}"/>
+						<Bus Name="VO" ID="{EE0CED22-A8E1-4145-A4C2-2197426A4980}"/>
 					</ChildrenList>
 				</Bus>
-				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}">
+					<ChildrenList>
+						<AuxBus Name="Hub_Area" ID="{A7D797B1-2852-4EC9-85E9-F07430391C20}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>
 		</WorkUnit>

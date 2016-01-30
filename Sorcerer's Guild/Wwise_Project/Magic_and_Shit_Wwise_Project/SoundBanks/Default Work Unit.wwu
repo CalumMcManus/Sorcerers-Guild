@@ -17,12 +17,18 @@
 						<ObjectRef Name="Stop_PLAYER_Spells_Geyser_Loop" ID="{241F2C23-7D18-438A-862E-817557FAD235}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Melee_VO_Effort" ID="{31A7DC25-B8F0-4878-8C55-A5565299957F}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PLAYER_VO_Death" ID="{F35F722F-25F4-42F1-86BA-1F1FE869280A}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PLAYER_Spells_Fireball_Cast" ID="{48A90248-6723-4B6A-9A5B-921F99A2C1F0}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Atmos_HubArea" ID="{F277E463-88E5-4481-A614-7CF943F05955}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PLAYER_VO_Damage" ID="{13BCB872-6CA2-43AE-B223-75E76DDCF16C}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Ranged_VO_Damage" ID="{16C5B977-FB27-4208-8EEE-E0352BA3739F}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Ranged_VO_Death" ID="{50989179-AE87-44A5-B8E3-FDE3DFC7488D}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PLAYER_Spells_Waterblast_Cast" ID="{3BBED679-89EF-4C2C-ACA8-BD2A42BE55F2}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Ranged_VO_Effort" ID="{A01F0D7A-3C30-47D2-93DF-EAE84AA68B00}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PLAYER_Spells_Waterblast_Impact" ID="{8BBBFB8D-5AAB-482A-9D7F-7800737EBA84}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PLAYER_VO_Effort" ID="{A1D8E692-9952-4092-9C9A-23547048D6D9}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PLAYER_Spells_Generic_Cast" ID="{04AA389B-E7FF-4914-9712-F96E0A71CD47}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PLAYER_Spells_Rockblast_Cast" ID="{3DC113D9-8E83-4393-B0A7-61F3A0A049A5}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Atmos_HubArea" ID="{DA0E1DDC-EF3D-4187-9D66-0B894B8DD14F}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Melee_VO_Death" ID="{45A577E2-DE55-4171-B44D-5264DE486DF9}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Attack_Ranged_Cast" ID="{F288F4E5-1D58-45CC-AEA1-0BAA2B644D8A}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CRE_Attack_Melee_Impact" ID="{C14679F3-B39D-49C9-9128-9677CD6EB5CF}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>

@@ -7,7 +7,16 @@ State	ID	Name	State Group			Notes
 	748895195	None	Music_States			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
+	3034623661	ATMOS			\Default Work Unit\Master Audio Bus\ATMOS	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3273955074	Hub_Area			\Default Work Unit\Master Secondary Bus\Hub_Area	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2849147824	Medium	Wwise RoomVerb			
 

@@ -96,6 +96,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_PLAYER_Spells_Rockblast_Cast" ID="{3DC113D9-8E83-4393-B0A7-61F3A0A049A5}">
+							<ChildrenList>
+								<Action Name="Play" ID="{9041485B-5A22-4EF2-ADD7-3B7AC5CEBC77}" ShortID="346652909" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{E0CB7A14-5AC7-4B6D-BE22-ECEF1A1DC9AB}" Global="false">
+											<ObjectRef Name="PLAYER_Spells_Rockblast_Cast" ID="{9CCB9847-E7C6-4A46-B04E-FF384AD3649A}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PLAYER_Spells_Fireball_Cast" ID="{48A90248-6723-4B6A-9A5B-921F99A2C1F0}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B83C9D88-95AE-4CD3-9A87-81485E3FC9E3}" ShortID="1065689825" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{03D5EAAD-FDDE-45D0-9422-5E0AB1AB554A}" Global="false">
+											<ObjectRef Name="PLAYER_Spells_Fireball_Cast" ID="{930E605D-9957-42AA-BCAC-A37E6D47C17B}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PLAYER_Spells_Waterblast_Impact" ID="{8BBBFB8D-5AAB-482A-9D7F-7800737EBA84}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D0320711-A58B-466E-8BAB-A3667CCA2A07}" ShortID="775043162" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{EAACE171-FC18-4127-85BF-8ED1D9AE87CB}" Global="false">
+											<ObjectRef Name="PLAYER_Spells_Waterblast_Impact" ID="{A1E9E2EA-4167-484C-BF32-C267F2D0C6CB}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PLAYER_Spells_Waterblast_Cast" ID="{3BBED679-89EF-4C2C-ACA8-BD2A42BE55F2}">
+							<ChildrenList>
+								<Action Name="Play" ID="{A7D49302-4CFF-46AA-8B23-9BCA8232EE7F}" ShortID="419968639" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{68FB599C-CB6D-4CDC-827F-2F39645582E4}" Global="false">
+											<ObjectRef Name="PLAYER_Spells_Waterblast_Cast" ID="{2567CD44-62C9-4599-901C-13912B476F3A}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="CRE" ID="{441FDF11-EA39-472D-AE04-75836AFFCE0F}" ShortID="403349334">
@@ -190,6 +234,28 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Atmos_HubArea" ID="{F277E463-88E5-4481-A614-7CF943F05955}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C1B8135E-7A91-44DA-8A05-F13B905E229F}" ShortID="413100882" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D54351E8-C10B-49FA-B688-2971DE865657}" Global="false">
+									<ObjectRef Name="Atmos_HubArea" ID="{72DC9FF6-5937-40FE-B118-16C67741A305}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Atmos_HubArea" ID="{DA0E1DDC-EF3D-4187-9D66-0B894B8DD14F}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{8D779AA5-597D-4926-AADE-B0901EA26DF4}" ShortID="466236412" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6C27732A-FEDD-4240-94D5-58C7572AFCBC}" Global="false">
+									<ObjectRef Name="Atmos_HubArea" ID="{72DC9FF6-5937-40FE-B118-16C67741A305}" WorkUnitID="{8715B385-5299-4E4C-B61B-BEA481FAD2A8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
