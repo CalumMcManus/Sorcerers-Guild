@@ -3,18 +3,16 @@ using System.Collections;
 
 public class AoE : Ability
 {
-    private DamageType m_DamageType;
-    private int m_iDamage;
-    private int m_iDoT;
-    private int m_iHoT;
-    private int m_iRadius;
+    public DamageType m_DamageType;
+    public string m_sName;
+    public int m_iDamage;
+    public int m_iDoT;
+    public int m_iHoT;
+    public int m_iRadius;
+    public int m_iSlowPercent;
+    public int m_iCastTime;
+    public int m_iCoolDown;
+    public int m_iManaCost;
+    public string m_sDescription;
 
-    public void ContructorAoE(DamageType dType, int damage, int dot, int heal, int radius)
-    {
-        m_DamageType = dType;
-        m_iDamage = damage;
-        m_iDoT = dot;
-        m_iHoT = heal;
-        m_iRadius = radius;
-    }
 }

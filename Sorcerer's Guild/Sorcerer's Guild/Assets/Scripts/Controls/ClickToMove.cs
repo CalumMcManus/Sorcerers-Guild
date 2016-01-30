@@ -24,7 +24,6 @@ public class ClickToMove : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
-                Debug.Log(hit.collider.tag);
                 if (hit.collider.tag == m_sGroundTag)
                 {
                     m_Agent.SetDestination(hit.point);

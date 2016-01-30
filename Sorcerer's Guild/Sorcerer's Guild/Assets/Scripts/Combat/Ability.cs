@@ -1,14 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Ability : MonoBehaviour {
+public class Ability {
 
     public enum DamageType
     {
-        Water,
-        Earth,
-        Fire,
+        arcane,
+        water,
+        earth,
+        fire,
     }
+
 
     
 }

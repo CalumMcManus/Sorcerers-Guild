@@ -4,22 +4,15 @@ using System.Runtime.InteropServices;
 
 public class SingleTarget : Ability
 {
-    private DamageType m_DamageType;
-    private int m_iDamage;
-    private int m_iDoT;
-    private int m_iSelfHeal;
-    private int m_iCastTime;
-    private int m_iCoolDown;
-    private int m_iSlowPercent;
+    public DamageType m_DamageType;
+    public string m_sName;
+    public int m_iDamage;
+    public int m_iDoT;
+    public int m_iSelfHeal;
+    public int m_iCastTime;
+    public int m_iCoolDown;
+    public int m_iSlowPercent;
+    public int m_iManaCost;
+    public string m_sDescription;
 
-    public void ContructorSingleTarget(DamageType dType, int damage, int dot, int heal, int casttime, int cooldown, int slowPercent)
-    {
-        m_DamageType = dType;
-        m_iDamage = damage;
-        m_iDoT = dot;
-        m_iSelfHeal = heal;
-        m_iCastTime = casttime;
-        m_iCoolDown = cooldown;
-        m_iSlowPercent = slowPercent;
-    }
 }

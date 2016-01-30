@@ -1,8 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerStats : Singleton<MonoBehaviour>
+public class PlayerStats : MonoBehaviour
 {
+    private static PlayerStats m_instance;
+
+    public static PlayerStats Instance
+    {
+        get { return m_instance; }
+    }
+    void Awake()
+    {
+        m_instance = this;
+    }
+
+    private Ability.DamageType m_DamageType = Ability.DamageType.arcane;
+    public Ability.DamageType DamageType { get { return m_DamageType; } set { m_DamageType = value; } }
 
     private int m_iMaxHealth = 50;
     public int MaxHealth { get { return m_iMaxHealth; } set { m_iMaxHealth = value; } }

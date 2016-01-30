@@ -1,8 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyStats : Singleton<MonoBehaviour>
+public class EnemyStats : MonoBehaviour
 {
+    private static EnemyStats m_instance;
+
+    public static EnemyStats Instance
+    {
+        get { return m_instance; }
+    }
+    void Awake()
+    {
+        m_instance = this;
+    }
 
     private int m_iMaxHealth = 50;
     public int MaxHealth { get { return m_iMaxHealth; } set { m_iMaxHealth = value; } }

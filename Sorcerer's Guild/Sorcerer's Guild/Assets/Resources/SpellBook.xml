@@ -123,6 +123,7 @@
 				<slow>0</slow>
 				<desc> A geyser is summoned that whose water heals friendly units but damages enemies. </desc>
 				<mana> 12 </mana>
+        <radius> 5 </radius>
 			</spell>
 				
 			<spell id='2'>
@@ -136,6 +137,7 @@
 				<slow>0</slow>
 				<desc> A column of flame is conjured at the target location causing damage to any caught in the column. </desc>
 				<mana> 12 </mana>
+        <radius> 5 </radius>
 			</spell>
 		</Lv3>
 		
@@ -151,6 +153,7 @@
 				<slow>0</slow>
 				<desc> Lava gathers at the user's feet causing damage to nearby enemies. </desc>
 				<mana> 8 </mana>
+        <radius> 5 </radius>
 			</spell>
 				
 			<spell id='2'>
@@ -164,6 +167,7 @@
 				<slow>0</slow>
 				<desc> The user casts a spell that makes the earth tremble at their feet. </desc>
 				<mana> 15 </mana>
+        <radius> 5 </radius>
 			</spell>
 		
 		</Lv5>
