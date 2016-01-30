@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	109646642	Play_PLAYER_Spells_Geyser_Into			\Default Work Unit\PLAYER\Play_PLAYER_Spells_Geyser_Into	
+	122885765	Play_CRE_Attack_Melee_Impact			\Default Work Unit\CRE\Play_CRE_Attack_Melee_Impact	
+	1380117869	Play_CRE_Attack_Ranged_Cast			\Default Work Unit\CRE\Play_CRE_Attack_Ranged_Cast	
+	3117251788	Stop_PLAYER_Spells_Geyser_Loop			\Default Work Unit\PLAYER\Stop_PLAYER_Spells_Geyser_Loop	
+	4173274099	Play_PLAYER_Spells_Generic_Cast			\Default Work Unit\PLAYER\Play_PLAYER_Spells_Generic_Cast	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	212188995	CRE_Attack_Melee_Impact_02	C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\SFX\CRE_Attack_Melee_Impact_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRE\CRE_Attack_Melee\CRE_Attack_Melee_Impact\CRE_Attack_Melee_Impact_02		66624
+	298705614	PLAYER_SFX_Geyser_Loop_01	C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\SFX\PLAYER_SFX_Geyser_Loop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\PLAYER_Spells\PLAYER_Spells_Geyser\PLAYER_Spells_Geyser_Loop\PLAYER_SFX_Geyser_Loop_01		376896
+	418418815	CRE_Attack_Melee_Impact_01	C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\SFX\CRE_Attack_Melee_Impact_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRE\CRE_Attack_Melee\CRE_Attack_Melee_Impact\CRE_Attack_Melee_Impact_01		79936
+	443411805	CRE_SFX_Spell_Cast_01	C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\SFX\CRE_SFX_Spell_Cast_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRE\CRE_Attack_Ranged\CRE_Attack_Ranged_Cast\CRE_SFX_Spell_Cast_01		110656
+	608803879	PLAYER_SFX_Geyser_Into_01	C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\SFX\PLAYER_SFX_Geyser_Into_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\PLAYER_Spells\PLAYER_Spells_Geyser\PLAYER_Spells_Geyser_Into\PLAYER_SFX_Geyser_Into_01		231488
+	631608782	CRE_SFX_Spell_Cast_03	C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\SFX\CRE_SFX_Spell_Cast_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRE\CRE_Attack_Ranged\CRE_Attack_Ranged_Cast\CRE_SFX_Spell_Cast_03		149568
+	878339663	CRE_SFX_Spell_Cast_02	C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\SFX\CRE_SFX_Spell_Cast_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRE\CRE_Attack_Ranged\CRE_Attack_Ranged_Cast\CRE_SFX_Spell_Cast_02		138304
+	910106102	CRE_Attack_Melee_Impact_03	C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\SFX\CRE_Attack_Melee_Impact_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRE\CRE_Attack_Melee\CRE_Attack_Melee_Impact\CRE_Attack_Melee_Impact_03		77888
+

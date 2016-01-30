@@ -1,0 +1,13 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1690668539	Music_States			\Default Work Unit\Music_States	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_States			
+	646625282	Hub	Music_States			
+	748895195	None	Music_States			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+

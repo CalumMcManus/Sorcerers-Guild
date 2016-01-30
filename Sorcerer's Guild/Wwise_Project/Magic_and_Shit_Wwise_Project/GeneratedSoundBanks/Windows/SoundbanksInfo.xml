@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Shep\Desktop\GAME_JAM\Project Directory\Sorcerers-Guild\Sorcerer's Guild\Wwise_Project\Magic_and_Shit_Wwise_Project\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="122885765" Name="Play_CRE_Attack_Melee_Impact"/>
+				<Event Id="1380117869" Name="Play_CRE_Attack_Ranged_Cast"/>
+				<Event Id="4173274099" Name="Play_PLAYER_Spells_Generic_Cast"/>
+				<Event Id="109646642" Name="Play_PLAYER_Spells_Geyser_Into"/>
+				<Event Id="3117251788" Name="Stop_PLAYER_Spells_Geyser_Loop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="212188995" Language="SFX">
+					<ShortName>CRE_Attack_Melee_Impact_02.wav</ShortName>
+					<Path>SFX\CRE_Attack_Melee_Impact_02_9E69E797.wem</Path>
+				</File>
+				<File Id="298705614" Language="SFX">
+					<ShortName>PLAYER_SFX_Geyser_Loop_01.wav</ShortName>
+					<Path>SFX\PLAYER_SFX_Geyser_Loop_01_9E69E797.wem</Path>
+				</File>
+				<File Id="418418815" Language="SFX">
+					<ShortName>CRE_Attack_Melee_Impact_01.wav</ShortName>
+					<Path>SFX\CRE_Attack_Melee_Impact_01_9E69E797.wem</Path>
+				</File>
+				<File Id="443411805" Language="SFX">
+					<ShortName>CRE_SFX_Spell_Cast_01.wav</ShortName>
+					<Path>SFX\CRE_SFX_Spell_Cast_01_9E69E797.wem</Path>
+				</File>
+				<File Id="608803879" Language="SFX">
+					<ShortName>PLAYER_SFX_Geyser_Into_01.wav</ShortName>
+					<Path>SFX\PLAYER_SFX_Geyser_Into_01_9E69E797.wem</Path>
+				</File>
+				<File Id="631608782" Language="SFX">
+					<ShortName>CRE_SFX_Spell_Cast_03.wav</ShortName>
+					<Path>SFX\CRE_SFX_Spell_Cast_03_9E69E797.wem</Path>
+				</File>
+				<File Id="878339663" Language="SFX">
+					<ShortName>CRE_SFX_Spell_Cast_02.wav</ShortName>
+					<Path>SFX\CRE_SFX_Spell_Cast_02_9E69E797.wem</Path>
+				</File>
+				<File Id="910106102" Language="SFX">
+					<ShortName>CRE_Attack_Melee_Impact_03.wav</ShortName>
+					<Path>SFX\CRE_Attack_Melee_Impact_03_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="133770359" Language="SFX">
+					<ShortName>MUSIC_HubDungeon_Transition.R.wav</ShortName>
+					<Path>SFX\MUSIC_HubDungeon_Transition.R_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="194801137" Language="SFX">
+					<ShortName>MUSIC_Dungeon_OnwardsLoop.R.wav</ShortName>
+					<Path>SFX\MUSIC_Dungeon_OnwardsLoop.R_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="643864581" Language="SFX">
+					<ShortName>MUSIC_Dungeon_OnwardsLoop.L.wav</ShortName>
+					<Path>SFX\MUSIC_Dungeon_OnwardsLoop.L_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="732531826" Language="SFX">
+					<ShortName>MUSIC_HubDungeon_Transition.L.wav</ShortName>
+					<Path>SFX\MUSIC_HubDungeon_Transition.L_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="764697067" Language="SFX">
+					<ShortName>MUSIC_DungeonHub_Transtion.R.wav</ShortName>
+					<Path>SFX\MUSIC_DungeonHub_Transtion.R_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="895165091" Language="SFX">
+					<ShortName>MUSIC_Hub_Loop.L.wav</ShortName>
+					<Path>SFX\MUSIC_Hub_Loop.L_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="936762444" Language="SFX">
+					<ShortName>MUSIC_Dungeon_FirstLoop.R.wav</ShortName>
+					<Path>SFX\MUSIC_Dungeon_FirstLoop.R_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="970918989" Language="SFX">
+					<ShortName>MUSIC_Dungeon_FirstLoop.L.wav</ShortName>
+					<Path>SFX\MUSIC_Dungeon_FirstLoop.L_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1023459602" Language="SFX">
+					<ShortName>MUSIC_Hub_Loop.R.wav</ShortName>
+					<Path>SFX\MUSIC_Hub_Loop.R_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1071283276" Language="SFX">
+					<ShortName>MUSIC_DungeonHub_Transtion.L.wav</ShortName>
+					<Path>SFX\MUSIC_DungeonHub_Transtion.L_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

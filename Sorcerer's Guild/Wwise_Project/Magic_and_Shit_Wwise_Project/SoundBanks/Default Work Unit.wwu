@@ -4,12 +4,20 @@
 		<WorkUnit Name="Default Work Unit" ID="{8D9D9598-E2DD-4A23-BCD3-19A4F69AAEF3}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Music" ID="{5393BF7D-091B-47FC-9DA9-C0624A3D7DF9}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Music" ID="{DA986FDA-E047-4635-A48A-5213DE0CF1C6}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{DD01C9DB-A2A2-441B-918A-007BFF5B19FC}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_PLAYER_Spells_Geyser_Into" ID="{9B3D2F07-1FA3-4280-AE90-FD1E667EA830}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_PLAYER_Spells_Geyser_Loop" ID="{241F2C23-7D18-438A-862E-817557FAD235}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PLAYER_Spells_Generic_Cast" ID="{04AA389B-E7FF-4914-9712-F96E0A71CD47}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CRE_Attack_Ranged_Cast" ID="{F288F4E5-1D58-45CC-AEA1-0BAA2B644D8A}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CRE_Attack_Melee_Impact" ID="{C14679F3-B39D-49C9-9128-9677CD6EB5CF}" WorkUnitID="{4F57F03D-6456-48CB-BE45-60593AACC7C0}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
