@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E1A84F25-0300-4B03-9CDD-05CEFF7DB1C8}" SchemaVersion="70">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{E1A84F25-0300-4B03-9CDD-05CEFF7DB1C8}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_States" ID="{5714B845-C766-4DEE-8605-EF18DD80BD2E}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{9B3A78E4-BAFF-43A1-8192-3806D4CFA8D0}"/>
+						<State Name="Hub" ID="{F6FCC975-0048-4D24-9B0E-B86378772CDE}"/>
+						<State Name="Dungeon" ID="{6900194A-8AA4-4719-8799-402F3F4C5990}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
