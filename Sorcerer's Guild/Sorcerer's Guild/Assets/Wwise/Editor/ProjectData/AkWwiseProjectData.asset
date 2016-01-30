@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dccf531f13fc90141a3c76ae19e7f096, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: Profile
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{4F57F03D-6456-48CB-BE45-60593AACC7C0}'
+    m_lastTimePsrt1: 1944217467
+    m_lastTimePart2: -1999427197
+    List:
+    - Name: Play_Music
+      Path: Default Work Unit\Play_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Music
+        ObjectType: 3
+      ID: -1362926625
+      Guid: da6f98da47e03546a48a5213de0cf1c6
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{74D5D225-BAB9-4D09-A759-860D1DF61F59}'
+    m_lastTimePsrt1: 1944477656
+    m_lastTimePart2: -1999427197
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{E1A84F25-0300-4B03-9CDD-05CEFF7DB1C8}'
+    m_lastTimePsrt1: 1989073978
+    m_lastTimePart2: -1999427197
+    List:
+    - Name: Music_States
+      Path: Default Work Unit\Music_States
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_States
+        ObjectType: 9
+      ID: 1690668539
+      Guid: 45b8145766c7ee4d8605ef18dd80bd2e
+      values:
+      - Dungeon
+      - Hub
+      - None
+      ValueIcons:
+      - ElementName: Dungeon
+        ObjectType: 8
+      - ElementName: Hub
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: c90e4b2402b88a26db3ba32c
+      ValueGuids:
+      - bytes: 4a190069a48a19478799402f3f4c5990
+      - bytes: 75c9fcf64800244d9b0eb86378772cde
+      - bytes: e4783a9bffbaa14381923806d4cfa8d0
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{3B6BCBB0-3FBE-41F1-A372-F9D67AA1685F}'
+    m_lastTimePsrt1: 1989104013
+    m_lastTimePart2: -1999427197
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{8D9D9598-E2DD-4A23-BCD3-19A4F69AAEF3}'
+    m_lastTimePsrt1: 1989003934
+    m_lastTimePart2: -1999427197
+    List:
+    - Name: Music
+      Path: Default Work Unit\Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      ID: -303024426
+      Guid: 7dbf93531b09fc479da9c0624a3d7df9
+    - Name: SFX
+      Path: Default Work Unit\SFX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+      ID: 393239870
+      Guid: dbc901dda2a21b44918a007bff5b19fc
+  ExpandedItems:
+  - /Magic_and_Shit_Wwise_Project
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  memoryCutoffThreshold: 0.95
